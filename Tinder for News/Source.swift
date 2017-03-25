@@ -19,7 +19,12 @@ class Source {
     var description: String
     var apiSource = String()
     
-    init(name: String, selected: Bool, description: String, apiSource: String) {
+    init?(name: String, selected: Bool, description: String, apiSource: String) {
+        
+        if name.isEmpty || description.isEmpty {
+            return nil
+        }
+        
         self.name = name
         self.selected = selected
         self.description = description

@@ -102,9 +102,27 @@ class SourceTableViewController: UITableViewController {
     let apiKey = "661565c788e540cabe76172780fc477f"
     public func loadSourceNames() {
         
-        let source1 = Source(name: "cnn", selected: true, description: "General News Source",
-                             apiSource: "https://newsapi.org/v1/articles?source=cnn&sortBy=top&apiKey=" + apiKey)
+        guard let source1 = Source(name: "CNN", selected: true, description: "General News Source",
+                                    apiSource: "https://newsapi.org/v1/articles?source=cnn&sortBy=top&apiKey=" + apiKey) else {
+                                        fatalError("you fucked ur own mother")
+        }
+        guard let source2 = Source(name: "Google News", selected: true, description: "General News Source",
+                                   apiSource: "https://newsapi.org/v1/articles?source=google-news&sortBy=top&apiKey=" + apiKey) else {
+                                    fatalError("you fucked ur own mother")
+        }
+        guard let source3 = Source(name: "The New York Times", selected: true, description: "General News Source",
+                                   apiSource: "https://newsapi.org/v1/articles?source=the-new-york-times&sortBy=top&apiKey=" + apiKey) else {
+                                    fatalError("you fucked ur own mother")
+        }
+        guard let source4 = Source(name: "Buzzfeed", selected: true, description: "General News Source",
+                                   apiSource: "https://newsapi.org/v1/articles?source=buzzfeed&sortBy=top&apiKey=" + apiKey) else {
+                                    fatalError("you fucked ur own mother")
+        }
+        guard let source5 = Source(name: "The Economist", selected: true, description: "General News Source",
+                                   apiSource: "https://newsapi.org/v1/articles?source=the-economist&sortBy=top&apiKey=" + apiKey) else {
+                                    fatalError("you fucked ur own mother")
+        }
         
-        sources += [source1]
+        sources += [source1, source2, source3, source4, source5]
     }
 }

@@ -14,6 +14,10 @@
 		F75B991F1E85F7F500A50268 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F75B991D1E85F7F500A50268 /* LaunchScreen.storyboard */; };
 		F75B992A1E85F7F500A50268 /* Tinder_for_NewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75B99291E85F7F500A50268 /* Tinder_for_NewsTests.swift */; };
 		F75B99351E85F7F500A50268 /* Tinder_for_NewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75B99341E85F7F500A50268 /* Tinder_for_NewsUITests.swift */; };
+		F75CFCA41E86BB5500E378CD /* SourcesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75CFCA31E86BB5500E378CD /* SourcesTableViewCell.swift */; };
+		F75CFCAC1E86C3DE00E378CD /* SourceTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F75CFCAA1E86C3DE00E378CD /* SourceTableViewController.xib */; };
+		F75CFCAE1E86C6B500E378CD /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75CFCAD1E86C6B500E378CD /* Source.swift */; };
+		F75CFCB01E86E4FC00E378CD /* SourceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75CFCAF1E86E4FC00E378CD /* SourceTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		F75B99301E85F7F500A50268 /* Tinder for NewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tinder for NewsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F75B99341E85F7F500A50268 /* Tinder_for_NewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tinder_for_NewsUITests.swift; sourceTree = "<group>"; };
 		F75B99361E85F7F500A50268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F75CFCA31E86BB5500E378CD /* SourcesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SourcesTableViewCell.swift; path = ../SourcesTableViewCell.swift; sourceTree = "<group>"; };
+		F75CFCAA1E86C3DE00E378CD /* SourceTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SourceTableViewController.xib; sourceTree = "<group>"; };
+		F75CFCAD1E86C6B500E378CD /* Source.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Source.swift; sourceTree = "<group>"; };
+		F75CFCAF1E86E4FC00E378CD /* SourceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SourceTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +107,11 @@
 			children = (
 				F75B99141E85F7F500A50268 /* AppDelegate.swift */,
 				F75B99161E85F7F500A50268 /* ViewController.swift */,
+				F75CFCA31E86BB5500E378CD /* SourcesTableViewCell.swift */,
 				F75B99181E85F7F500A50268 /* Main.storyboard */,
+				F75CFCAD1E86C6B500E378CD /* Source.swift */,
+				F75CFCAF1E86E4FC00E378CD /* SourceTableViewController.swift */,
+				F75CFCAA1E86C3DE00E378CD /* SourceTableViewController.xib */,
 				F75B991B1E85F7F500A50268 /* Assets.xcassets */,
 				F75B991D1E85F7F500A50268 /* LaunchScreen.storyboard */,
 				F75B99201E85F7F500A50268 /* Info.plist */,
@@ -234,6 +246,7 @@
 			files = (
 				F75B991F1E85F7F500A50268 /* LaunchScreen.storyboard in Resources */,
 				F75B991C1E85F7F500A50268 /* Assets.xcassets in Resources */,
+				F75CFCAC1E86C3DE00E378CD /* SourceTableViewController.xib in Resources */,
 				F75B991A1E85F7F500A50268 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +274,9 @@
 			files = (
 				F75B99171E85F7F500A50268 /* ViewController.swift in Sources */,
 				F75B99151E85F7F500A50268 /* AppDelegate.swift in Sources */,
+				F75CFCAE1E86C6B500E378CD /* Source.swift in Sources */,
+				F75CFCA41E86BB5500E378CD /* SourcesTableViewCell.swift in Sources */,
+				F75CFCB01E86E4FC00E378CD /* SourceTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +521,7 @@
 				F75B993B1E85F7F500A50268 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F75B993C1E85F7F500A50268 /* Build configuration list for PBXNativeTarget "Tinder for NewsTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +530,7 @@
 				F75B993E1E85F7F500A50268 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F75B993F1E85F7F500A50268 /* Build configuration list for PBXNativeTarget "Tinder for NewsUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +539,7 @@
 				F75B99411E85F7F500A50268 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
